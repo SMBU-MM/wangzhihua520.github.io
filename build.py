@@ -1,16 +1,15 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Zhihua", "Wang"]
+    name = ["Zhihua Wang", ""]
     email = "zhihua.wang@my.cityu.edu.hk"
     twitter = "wongchiwa123"
     github = "wangzhihua520"
     linkedin = "Wang Zhihua"
     bio_text = f"""
-                <p>I am a postDoc at City University of Hong Kong working on computational vision.</p>
+                <p><span style="font-weight: bold;"><h4>Biography</h4></span></p>
                 <p>
-                    <span style="font-weight: bold;">Bio:</span> 
-                    I received a B.E. degree from <a href="https://global.cumt.edu.cn/" target="_blank">the China University of Mining and Technology</a>, Xuzhou, China, in 2014, a M.S. degree from the <a href="https://english.nudt.edu.cn/" target="_blank"> National University of Defense Technology</a>, Changsha, China, in 2016, and a Ph.D.
+                    I received a B.E. degree from the <a href="https://global.cumt.edu.cn/" target="_blank">China University of Mining and Technology</a>, Xuzhou, China, in 2014, a M.S. degree from the <a href="https://english.nudt.edu.cn/" target="_blank"> National University of Defense Technology</a>, Changsha, China, in 2016, and a Ph.D.
                     degree from the <a href="https://www.cs.cityu.edu.hk/" target="_blank">Department of Computer Science, City University of Hong Kong</a>, Kowloon, Hong Kong, in 2022, under the supervision of <a href="https://kedema.org/" target="_blank">Dr. Kede Ma</a>. Now, I am working as a PostDoc with <a href="https://liaojing.github.io/html/" target="_blank">Dr. Jing Liao</a>.
                     My research interests include image quality assessment, computational vision, and human-computer interaction.
                 </p>
@@ -23,14 +22,19 @@ def get_personal_data():
                     <a href="https://github.com/wangzhihua520" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/zhihwang5/" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                 </p>
+                <p><span style="font-weight: bold;"><h4>News</h4></span></p>
+                <div>
+                 <ul>
+                   <li><p> 01/2023, one paper accepted to <a target="_blank" href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE Transactions on Pattern Analysis and Machine Intelligence.</a></p></li>
+                   <li><p> 12/2022, one paper accepted to <a target="_blank" href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition.</a></p></li>
+                 </ul>
+               </div>
     """
     footer = """
             <div class="col-sm-12" style="">
                 <h4>Homepage Template</h4>
                 <p>
-                    Feel free to use this website as a template! It is fully responsive and very easy to use and maintain as it uses a python script that crawls your bib files to automatically add the papers and talks. If you find it helpful, please add a link to my website - I will also add a link to yours (if you want). <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Checkout the github repository for instructions on how to use it</a>. <br>
-                    <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
-                    <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
+                    Feel free to use this website as a template! It is fully responsive and very easy to use and maintain as it uses a python script that crawls your bib files to automatically add the papers and talks.
                 </p>
             </div>
     """
@@ -42,9 +46,12 @@ def get_author_dict():
         'Jing Liao': 'https://liaojing.github.io/html/',
         'Jianguo Zhang': 'https://faculty.sustech.edu.cn/zhangjg/en/',
         'Keyan Ding': 'https://tsattler.github.io/',
+        'Tao Dong': 'https://www.usn.no/english/about/contact-us/employees/tao-dong',
+        'Zhangyang Wang': 'https://vita-group.github.io/',
+        'Tianlong Chen': 'https://tianlong-chen.github.io/about/'
         }
 
-def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
+def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Zhihua Wang', add_links=True):
     links = get_author_dict() if add_links else {}
     s = ""
     for p in persons:
