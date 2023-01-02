@@ -1,43 +1,27 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Michael", "Niemeyer"]
-    email = "micniemeyer1@gmail.com"
-    twitter = "Mi_Niemeyer"
-    github = "m-niemeyer"
-    linkedin = "michael-niemeyer"
+    name = ["Zhihua", "Wang"]
+    email = "zhihua.wang@my.cityu.edu.hk"
+    twitter = "wongchiwa123"
+    github = "wangzhihua520"
+    linkedin = "Wang Zhihua"
     bio_text = f"""
-                <p>I am a research scientist at Google working on 3D computer vision and graphics.</p>
-                <!-- <p>
-                    <span style="font-weight: bold;">Research:</span>
-                    I am excited about complex problems that can be tackled with learning-based systems. Currently, my research focuses on 3D vision, and I am interested in how machines can infer 3D representations from sparse observations. Further, I am big fan of neural scene representations, \ie, how scenes are best represented in learning-based systems using deep neural networks. 
-                </p> -->
+                <p>I am a postDoc at City University of Hong Kong working on computational vision.</p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span> 
-                    I was a PhD student at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a> supervised by <a href="https://www.cvlibs.net/" target="_blank">Andreas Geiger</a>.
-                    During my PhD studies, I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher.
-                    As an undergraduate student, I received a BSc in Mathematics from the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne (Germany)</a> and a MSc from the 
-                    <!-- During my Bachelor studies, I spent one year at the <a href="https://www.ub.edu/web/portal/en/" target="_blank">University of Barcelona</a>, Spain, funded by the ERASMUS program. -->
-                    <!-- Following my interest in computer science, I then moved to Scotland to gain my Master's degree in Advanced Computer Science at the  -->
-                    <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews (UK)</a>.
-                    <!-- In October 2018, I started my PhD in computer vision / machine learning in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href ="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany, under the supervision of <a href="http://cvlibs.net/" target="_blank">Andreas Geiger</a>.  -->
-                    <!-- In 2021 I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher. -->
-                </p>
-                <p>
-                    <span style="font-weight: bold;">Awards:</span>
-                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and were admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
-                    Since 2018, I am scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
-                    Our two research projects Occupancy Networks and DVR were selected to be <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">among the top-15 most influencial CVPR papers</a> from 2019 and 2020, respectively.
-                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
+                    I received a B.E. degree from <a href="https://global.cumt.edu.cn/" target="_blank">the China University of Mining and Technology</a>, Xuzhou, China, in 2014, a M.S. degree from the <a href="https://english.nudt.edu.cn/" target="_blank"> National University of Defense Technology</a>, Changsha, China, in 2016, and a Ph.D.
+                    degree from the <a href="https://www.cs.cityu.edu.hk/" target="_blank">Department of Computer Science, City University of Hong Kong</a>, Kowloon, Hong Kong, in 2022, under the supervision of <a href="https://kedema.org/" target="_blank">Dr. Kede Ma</a>. Now, I am working as a PostDoc with <a href="https://liaojing.github.io/html/" target="_blank">Dr. Jing Liao</a>.
+                    My research interests include image quality assessment, computational vision, and human-computer interaction.
                 </p>
                 <p>For any inquiries, feel free to reach out to me via mail!</p>
                 <p>
-                    <a href="https://m-niemeyer.github.io/assets/pdf/CV_Niemeyer_Michael.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
-                    <a href="mailto:micniemeyer1@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/Mi_Niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                    <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
-                    <a href="https://github.com/m-niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
-                    <a href="https://www.linkedin.com/in/michael-niemeyer" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <a href="https://wangzhihua520.github.io/assets/pdf/CV_Zhihua.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="mailto:zhihua.wang@my.cityu.edu.hk" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
+                    <a href="https://twitter.com/wongchiwa123" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
+                    <a href="https://scholar.google.com/citations?user=0gKwEKMAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
+                    <a href="https://github.com/wangzhihua520" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
+                    <a href="https://www.linkedin.com/in/zhihwang5/" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                 </p>
     """
     footer = """
@@ -54,24 +38,10 @@ def get_personal_data():
 
 def get_author_dict():
     return {
-        'Andreas Geiger': 'https://www.cvlibs.net/',
-        'Songyou Peng': 'https://pengsongyou.github.io/',
-        'Zehao Yu': 'https://niujinshuchong.github.io/',
-        'Torsten Sattler': 'https://tsattler.github.io/',
-        'Katja Schwarz': 'https://katjaschwarz.github.io/',
-        'Axel Sauer': 'https://axelsauer.com/',
-        'Jonathan Barron': 'https://jonbarron.info/',
-        'Ben Mildenhall': 'https://bmild.github.io/',
-        'Mehdi Sajjadi': 'https://msajjadi.com/',
-        'Noha Radwan': 'http://www2.informatik.uni-freiburg.de/~radwann/',
-        'Chiyu Jiang': 'https://www.maxjiang.ml/',
-        'Yiyi Liao': 'https://yiyiliao.github.io/',
-        'Marc Pollefeys': 'https://people.inf.ethz.ch/pomarc/',
-        'Michael Oechsle': 'https://moechsle.github.io/',
-        'Christian Reiser': 'https://creiser.github.io/',
-        'Lars Mescheder': 'https://scholar.google.de/citations?user=h2k1gL4AAAAJ&hl=de',
-        'Thilo Strauss': 'https://scholar.google.com/citations?user=VlymtLQAAAAJ&hl=en',
-        'Sebastian Nowozin': 'http://www.nowozin.net/sebastian/',
+        'Kede Ma': 'https://kedema.org/',
+        'Jing Liao': 'https://liaojing.github.io/html/',
+        'Jianguo Zhang': 'https://faculty.sustech.edu.cn/zhangjg/en/',
+        'Keyan Ding': 'https://tsattler.github.io/',
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
